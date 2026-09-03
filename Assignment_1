@@ -1,0 +1,23 @@
+student_list = ["Aarnavi", "Surabhi", "Lisha", "Rajasi"]
+print("\nStudent List:")
+print(student_list)
+
+student_tuple = ("Aarnavi", "Surabhi", "Lisha", "Rajasi")
+print("\nStudent Tuple:")
+print(student_tuple)
+
+student_dictionary = {"Aarnavi": 1, "Surabhi": 44, "Lisha": 28, "Rajasi": 31}
+print("\nStudent Dictionary:")
+print(student_dictionary)
+
+student_dictionary["Aarnavi"] = 2
+print("\nUpdated Student Dictionary:")
+print(student_dictionary)
+
+del student_dictionary["Lisha"]
+print("\nStudent Dictionary after deletion:")
+print(student_dictionary)
+
+student_dictionary["Kartikaey"] = 25
+print("\nStudent Dictionary after adding a new student:")
+print(student_dictionary)
